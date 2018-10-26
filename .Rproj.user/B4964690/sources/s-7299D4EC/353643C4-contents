@@ -1,0 +1,13 @@
+
+# load packages
+library(tidyverse)
+
+# load data
+df <- read_csv("tools.csv") %>%
+  mutate(tool = reorder(tool, -order))
+
+# plot data
+ggplot(df, aes(x = value, y = tool)) + 
+  geom_point(aes(color = difficulty)) + 
+  
+  geom_line()

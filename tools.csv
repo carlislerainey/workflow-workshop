@@ -1,0 +1,9 @@
+tool,difficulty,value,order
+Word,2,2,1
+R + RStudio,4,5,2
+LaTeX,2,4,3
+Make,2,4,4
+R Markdown,3,3,5
+Pages (for posters),2,2,9
+Keynote or PowerPoint (for slides),2,3,7
+git + GitHub Desktop + GitHub.com,4,2,8
